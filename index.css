@@ -1,0 +1,94 @@
+   .t1 {
+        color: red;
+        font-size: 5rem;
+        text-align: center;
+        background-color: rgb(0, 200, 255);
+    }
+
+.t2 {
+    color: rgb(132, 0, 255);
+    }
+
+#T1{
+    color: blue;
+    }
+
+    table, th, td{
+        border: 1px solid black;
+    }
+
+    table{
+        width: 80%;
+    }
+
+    th{
+        text-align: center;
+        padding-left: 20px; /*ซ้าย*/
+        padding-top: 20px ; /*บน*/
+        padding-right: 20px ; /*ขวา*/
+        padding-bottom: 20px ; /*ล่าง*/
+        padding: 20px;
+    }
+
+    td{
+        text-align: left;
+    }
+
+    .frame1{
+        width: 300px;
+        height: 300px;
+
+    }
+
+    body{
+        /*background-color: antiquewhite; /*สีพื้นหลัง*/
+       /* background-image: url("https://rapidapi-prod-collections.s3.amazonaws.com/collection/iStock-1338771906.jpg.jpg"); /*ภาพพืันหลัง*/
+       /* background-repeat: no-repeat; /*การหมุนของตัวพื้นหลัง*/
+       /* background-attachment: scroll; /*รูปแบบพื้นหลัง*/
+       /* background-position: right top; /*ตำแหน่งพื้นหลัง*/
+       background: url(https://rapidapi-prod-collections.s3.amazonaws.com/collection/iStock-1338771906.jpg.jpg) repeat-x right top;
+       font-family: "Itim", cursive; /*ฟอนท์*/
+    }
+
+    .t1{
+        border: 10px solid red; /*เส้นกรอบ*/
+       /* margin-top: 100px; /*ระยะห่างข้างบน*/
+       /* margin-bottom: 100px; /*ระยะห่างจากข้างล่าง*/
+       /* margin-left: 100px; /*ซ้าย*/
+       /* margin-right: 100px; /*ขวา*/
+        margin: 100px 0px 50px 0px; /*บน ขวา ล่าง ซ้าย*/
+       /* padding-top: 50px; /*เพิ่มขนาดขนาดข้างบน*/
+       /* padding-right: 50px; /*เพิ่มขนาดขนาดข้างขวา*/
+       /* padding-bottom: 50px; /*เพิ่มขนาดขนาดข้างล่าง*/
+       /* padding-left: 50px; /*เพิ่มขนาดขนาดข้างซ้าย*/
+        padding: 10px 0px 10px 0px; /*บน ขวา ล่าง ซ้าย*/
+       
+        width: 50%; /*กำหนดความกว้าง*/
+        min-width: 30%; /*กำหนดความกว้างต่ำสุด*/
+        max-width: 50%; /*กำหนดความกว้างสูงสุด*/
+        height: 50vh; /*กำหนดความสูง*/
+        min-height: 30%; /*กำหนดความสูงต่ำสุด*/
+        max-height: 50%; /*กำหนดความสูงสูงสุด*/
+        outline: 10px solid blue; /*กรอบนอก*/
+        text-shadow: 10px 10px 10px black; /*เงา*/ /*ระยะห่างฝ่างซ้าย ระยะห่างฝ่างบน ความเบลอ สี */
+    }
+
+    .icon1{
+        color: red;
+    }
+
+    .link1{
+        text-decoration: none; /*รูบแบบเส้นใต้*/
+        border: 2px solid blue; 
+    }
+
+    .link1:hover{
+        border: 2px solid red; 
+        background-color: red;
+        color: aliceblue;
+    }
+
+    .list1{
+        list-style-type: upper-roman; /*รูบแบบสัญลักษณ์ของลีส*/
+        display: block;
+    }
